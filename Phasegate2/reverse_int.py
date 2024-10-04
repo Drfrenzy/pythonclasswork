@@ -6,7 +6,8 @@ def reverse(numbers):
 print(reverse('456'))
 
 def is_palindrome(number):
-   if(reverse(numbers) == reverse_numbers):
+   if reverse_numbers == numbers:
       print("Number is palindrome")
-   else: 
-     print("Number is not a palindrome")
+
+   if reverse_numbers != number:
+      print("Number is not a palindrome")

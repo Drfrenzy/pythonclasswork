@@ -7,3 +7,5 @@ def divide_or_square(number):
         return number % 5
 
 print(divide_or_square(25))
+
+
